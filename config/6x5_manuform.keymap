@@ -60,11 +60,11 @@
             // |     |     |      |      |      |        |                   |       |      |       |       |      |       |
 
             bindings = <
-            &none        &trans      &trans              &trans   &trans   &trans          &trans          &trans           &trans     &trans     &trans  &bootloader
-&kp C_VOLUME_DOWN  &kp C_VOL_DN  &kp K_MUTE     &kp C_VOLUME_UP   &kp N4   &kp N5          &kp N6    &kp UP_ARROW           &kp N8     &kp N9     &kp N0       &trans
-     &kp C_REWIND  &kp C_REWIND  &kp C_PLAY  &kp C_FAST_FORWARD   &kp F5   &kp F6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER  &kp RIGHT       &trans
-           &kp F7        &kp F8      &kp F9             &kp F10  &kp F11  &kp F12     &kp KP_PLUS       &kp MINUS        &kp EQUAL   &kp LBKT   &kp RBKT     &kp BSLH
-           &trans        &trans      &trans              &trans   &trans   &trans          &trans          &trans           &trans     &trans     &trans       &trans
+            &none        &trans            &trans              &trans   &trans   &trans          &trans          &trans           &trans     &trans     &trans  &bootloader
+&kp C_VOLUME_DOWN  &kp C_VOL_DN        &kp K_MUTE     &kp C_VOLUME_UP   &kp N4   &kp N5          &kp N6    &kp UP_ARROW           &kp N8     &kp N9     &kp N0       &trans
+     &kp C_REWIND  &kp C_REWIND  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD   &kp F5   &kp F6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER  &kp RIGHT       &trans
+           &kp F7        &kp F8            &kp F9             &kp F10  &kp F11  &kp F12     &kp KP_PLUS       &kp MINUS        &kp EQUAL   &kp LBKT   &kp RBKT     &kp BSLH
+           &trans        &trans            &trans              &trans   &trans   &trans          &trans          &trans           &trans     &trans     &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
